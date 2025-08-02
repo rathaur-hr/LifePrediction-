@@ -1,0 +1,29 @@
+# Web App
+streamlit
+
+# Model Serialization
+joblib
+
+# Data Handling
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+
+# Visualization (optional but useful)
+matplotlib
+seaborn
+
+# For working with metrics and warnings
+scipy
+warnings
+
+# If you're using any feature selection, polynomial features, etc.
+statsmodels
+
+# For encoding and preprocessing (if used)
+category_encoders
+
+# Optional (for cleaning data or advanced EDA)
+missingno
