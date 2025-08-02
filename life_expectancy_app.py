@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load model and encoders
-model = joblib.load("/content/drive/MyDrive/21WeeksOfML/Project1_Regression/life_expectancy_model.pkl")
-label_encoders = joblib.load("/content/drive/MyDrive/21WeeksOfML/Project1_Regression/label_encoders.pkl")
+model = joblib.load("life_expectancy_model.pkl")
+label_encoders = joblib.load("label_encoders.pkl")
 
 st.title("🌍 Life Expectancy Predictor")
 
@@ -63,3 +63,4 @@ input_df = pd.DataFrame([input_data])
 if st.button("Predict Life Expectancy"):
     prediction = model.predict(input_df)[0]
     st.success(f"Predicted Life Expectancy: {prediction:.2f} years")
+
